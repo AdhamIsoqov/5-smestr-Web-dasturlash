@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3a63a3;
+    font-family: sans-serif;
+}
+.registration-box{
+    width: 250px;
+    height: 350px;
+    background: #fff;
+}
+.registration-box h1{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    background: #0d62d9;
+}
+.registration-box .registration-form{
+    padding: 20px;
+}
+.registration-form li{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registration-form li:nth-child(1){
+    width: 100px;
+    display: inline-block;
+    padding: 0 5px 0 0;
+}
+.registration-form li:nth-child(1) input{
+    width: 100%;
+}
+.registration-form li:nth-child(2){
+    width: 100px;
+    display: inline-block;
+    padding: 0 0 0 5px;
+}
+.registration-form li:nth-child(2) input{
+    width: 100%;
+}
+.registration-form label{
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+.registration-form input{
+    width: 100%;
+}
+.gender-box .radio-box{
+    display: flex;
+    justify-content: center;
+}
+.gender-toggle {
+    display: inline-flex;
+    background-color: #e0f7f7;
+    border-radius: 50px;
+    padding: 3px 15px;
+}
+.gender-toggle input[type="radio"] {
+    display: none;
+}
+.gender-toggle label {
+    padding: 3px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.gender-toggle #male:checked + label[for="male"] {
+    background-color: #4f9efc;
+    color: #fff;
+}
+.gender-toggle #female:checked + label[for="female"] {
+    background-color: #4f9efc;
+    color: rgba(0, 0, 0, 0.7);
+}
+.gender-toggle label {
+    background-color: #e0f7f7;
+    color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s, color 0.3s;
+}
+.registration-form button{
+    width: 100%;
+    padding: 5px 0;
+    color: #fff;
+    background: #0d62d9;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

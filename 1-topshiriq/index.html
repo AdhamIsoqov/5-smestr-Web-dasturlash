@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-box">
+        <h1>REGISTARTION FORM</h1>
+        <form action="#" method="get" class="registration-form">
+            <li>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname">
+            </li>
+            <li>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname">
+            </li>
+            <li>
+                <label for="email">Email Address</label>
+                <input type="email" name="email">
+            </li>
+            <li>
+                <label for="city">City</label>
+                <input type="text" name="city">    
+            </li>
+            <li>
+                <label for="country">Country</label>
+                <input type="text" name="country">
+            </li>
+            <li class="gender-box">
+                <label for="gender">Gender</label>
+                <div class="radio-box">
+                    <div class="gender-toggle">
+                        <input type="radio" id="male" name="gender" checked>
+                        <label for="male">Male</label>
+                
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </li>
+            <button type="submit"> REGISTER NOW</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
