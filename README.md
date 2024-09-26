@@ -1,2 +1,2 @@
 # 5-smestr-Web-dasturlash
-Topshiriqlar jamlanmasi\
+Topshiriqlar jamlanmasi
